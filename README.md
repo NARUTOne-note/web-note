@@ -4,8 +4,8 @@
 
 > 🚀**个人web笔记，主要记录一些学习中随记、随想，并不会详细记录各个知识点。详情请查看各个文件及下面github库及blog**
 
-[https://github.com/NARUTOne-note](https://github.com/NARUTOne-note)
-[NARUTOne-blog](https://github.com/NARUTOne/blog-note)
+- [https://github.com/NARUTOne-note](https://github.com/NARUTOne-note)
+- [NARUTOne-blog](https://github.com/NARUTOne/blog-note)
 
 :smile: :art:
 
