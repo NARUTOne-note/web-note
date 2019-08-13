@@ -15,9 +15,11 @@ git remote add origin url 添加 origin
 git reset –-hard [版本]:回退
 
 修改用户名、邮箱
+ git config --global --list
 git config --global user.name "your name"
 git config --global user.email "your email"
 本地
+ git config --local --list
 git config  user.name "your name"
 git config  user.email "your email"
 
