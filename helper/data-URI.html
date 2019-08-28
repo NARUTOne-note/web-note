@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>data URI</title>
+  <link rel="stylesheet" media="all" href="data:text/css,h1{color: red}" />
+</head>
+<body>
+  <!-- data:[<mediatype>][;base64],<data> -->
+  <!-- 常用于将图片嵌入网页 -->
+  <!-- URI，它的全称是 Uniform Resource Identifier 统一资源标识符，而我们常用的 URL 的全称是 Uniform Resource Locator 统一资源定位符。 -->
+  <h1>hello</h1>
+  <!-- svg中 xmlns="http://www.w3.org/2000/svg" 是必不可少的，缺失就显示不出来了；或者直接转换使用base64 -->
+  <img src='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg"><circle cx="10" cy="10" r="10" /></svg>' />
+</body>
+<script src="data:text/javascript,alert('hello')"></script>
+<!-- 转成 base64  -->
+<!-- <script src="data:text/javascript;base64,YWxlcnQoJ2hlbGxvJyk="></script> -->
+</html>
