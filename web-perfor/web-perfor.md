@@ -11,9 +11,10 @@
 - [浅析前端页面渲染机制](http://mp.weixin.qq.com/s/iwfSWADiDmKHKlfXNcU-Xg)
 - [前端性能优化——从 10 多秒到 1.05 秒](https://mp.weixin.qq.com/s/m1dwFaOcUBEhoPgcR50xdw)
 
-## SEO 优化
+## web 优化
 
 - [SEO优化实战](http://imweb.io/topic/5682938b57d7a6c47914fc00)
+- [CSP 资源加载限制](http://zao.bukebudu.com/#/topic?id=f2ab90da-0673-48bd-80cd-36820571c1d6)
 
 ## js性能优化
 
