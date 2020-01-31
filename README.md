@@ -17,49 +17,6 @@
 
 ![web-front-zh](https://raw.githubusercontent.com/NARUTOne/resources-github/master/imgs/frontend-2019.png)
 
-## 内容目录
-
-```sh
-├─big-data                            大数据
-├─case-interview                      面试
-│  └─js
-├─git                                 git
-│  ├─git
-│  └─github
-├─IDE                                 IDE
-│  └─vscode
-├─normalize                           规范
-├─Regex                               正则
-├─scaffolding                         脚手架
-│  └─app
-│      └─templates
-│          ├─data
-│          └─src
-│              ├─components
-│              ├─images
-│              ├─styles
-│              ├─vendor
-│              └─views
-├─using-skill                         常用技巧
-│  ├─events-more-trigger
-│  └─onresize-div
-├─utils-tools                         工具
-├─web-App                             移动端相关
-│  ├─Flex
-│  │  ├─demo
-│  │  ├─layout
-│  │  └─study-demo
-│  ├─Img
-│  ├─rem
-│  ├─touch
-│  │  ├─direction
-│  │  └─draw
-│  └─UI-size
-├─web-big-screen                      大屏开发
-├─web-dev-project                     项目开发知识
-├─web-perfor                          web优化
-└─wiki                                wiki
-```
 
 ## 了解web前端
 
