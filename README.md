@@ -17,7 +17,6 @@
 
 ![web-front-zh](https://raw.githubusercontent.com/NARUTOne/resources-github/master/imgs/frontend-2019.png)
 
-
 ## 了解web前端
 
 - [前端知识结构浅析](https://segmentfault.com/a/1190000005875954)
