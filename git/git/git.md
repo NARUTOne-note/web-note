@@ -5,7 +5,6 @@
 - [git操作](http://www.bootcss.com/p/git-guide/)
 - [git 常用命令](https://juejin.im/post/5dbe7a476fb9a0207f1035d0?utm_source=gold_browser_extension)
 
-
 ## 修改
 
 ```sh
@@ -38,7 +37,7 @@ git config --global user.name "wuzhong"
 
 git config --global user.email "zhong.wu@baifendian.com"
 
-git clone url
+git clone [-b branch] url 
 
 cd  目标路径
 
@@ -104,6 +103,12 @@ git pull origin master
 git add *
 git commit -m "xxx"
 git push origin master
+
+# 将master分支强行重置为dev分支
+git reset --hard dev
+
+# 将重置后的master分支强制推送到远程仓库
+git push origin master -f
 ```
 
 ## 删除文件
@@ -142,7 +147,6 @@ git fetch origin tag V1.2
 - rebase: 分支变基，就是这个分支checkout出来的commit，原本feat/B是从master中checkout出来的，但是使用`git rebase master`之后，就会以master最新的节点作为feat/B分支的基础。就像feat/B上所有的commit都是基于最新的master提交的。
 
 > merge 保留git完整历史；rebase变改历史，但是减少一些日志节点，依赖更加清晰；只将主分支合并到自己的私有分支使用rebase，分享到其他分支使用merge；不要对在你的仓库外有副本的分支执行变基
-
 
 ## 技巧
 
