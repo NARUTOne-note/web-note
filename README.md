@@ -11,8 +11,6 @@
 
 > 学习参考：[MDN](https://developer.mozilla.org/en-US/docs/Web)
 
-- [程序员的自我修养](https://leohxj.gitbooks.io/a-programmer-prepares/content/)
-
 - [developer-roadmap-chinese](https://github.com/goodjack/developer-roadmap-chinese)
 
 ![web-front-zh](https://raw.githubusercontent.com/NARUTOne/resources-github/master/imgs/frontend-2019.png)
@@ -20,11 +18,9 @@
 ## 了解web前端
 
 - [前端知识结构浅析](https://segmentfault.com/a/1190000005875954)
-- [页面加载了解前端](http://mp.weixin.qq.com/s/qMsf4DcMhn2cf0fXC-PLVA)
+- [页面加载](http://mp.weixin.qq.com/s/qMsf4DcMhn2cf0fXC-PLVA)
 
-### 前端最新发展
-
-#### webAssembly 字节码技术
+### webAssembly 字节码技术
 
 - [知乎讨论](https://www.zhihu.com/question/31415286)
 
@@ -35,7 +31,7 @@
 
 ## UI库、框架
 
-[Awesomes](https://github.com/NARUTOne-note/Awesomes)
+[NARUTOne-note](https://github.com/NARUTOne-note)
 
 ## 规范
 
@@ -84,80 +80,42 @@
 
 > 一些简单借鉴
 
-### 优文
-
-[收集的一些优秀文章](./hardgoods.md)
-
 ### 网站博客
 
-- [stackoverflow](https://stackoverflow.com/)
+- [stackoverflow](https://stackoverflow.com/) 国外技术问答社区，一般在遇到问题 google 该问题的英文关键字，可在该网站找到答案
 
-国外技术问答社区，一般在遇到问题 google 该问题的英文关键字，可在该网站找到答案
+- [阮一峰的 JavaScript 教程 阮一峰的 ES6 教程](http://es6.ruanyifeng.com/) 学习 JavaScript 必看, ES6 入门学习必备
 
-- [阮一峰的 JavaScript 教程 阮一峰的 ES6 教程](http://es6.ruanyifeng.com/)
+- [百度前端技术博客](http://fex.baidu.com/code/) 跟进新技术，作为茶余饭后的点心
 
-学习 JavaScript 必看, ES6 入门学习必备
+- [腾讯前端技术博客](http://www.alloyteam.com/) 跟进新技术，作为茶余饭后的点心
 
-- [百度前端技术博客](http://fex.baidu.com/code/)
+- [360团队](https://75team.com/archives/) 偶尔可翻阅
 
-跟进新技术，作为茶余饭后的点心
-
-- [腾讯前端技术博客](http://www.alloyteam.com/)
-
-跟进新技术，作为茶余饭后的点心
-
-- [360团队](https://75team.com/archives/)
-
-偶尔可翻阅
-
-- [div.io](http://div.io/#/welcome)
+- [div.io](http://div.io/#/welcome) 精品文章的汇集，不适合新手
 - [dev.to](https://dev.to/)
 
-精品文章的汇集，不适合新手
-
-- [w3cplus](http://www.w3cplus.com/)
-
-HTML5 CSS3 相关的知识可以翻阅
+- [w3cplus](http://www.w3cplus.com/)HTML5 CSS3 相关的知识可以翻阅
 
 - [张鑫旭的博客](http://www.zhangxinxu.com/wordpress/)
 
 - [阮一峰的博客](http://www.ruanyifeng.com/blog/javascript/)
 
-- [知乎](https://www.zhihu.com/)
+- [知乎](https://www.zhihu.com/) 可作为知识搜索引擎
 
-可作为知识搜索引擎， 遇到新名词可在百度检索关键字，如： 知乎 MVVM
+- [前端资源库](https://www.awesomes.cn/) 查看前端的最新最热门的资源技术
 
-- [前端资源库](https://www.awesomes.cn/)
+- [慕课网](http://www.imooc.com/) 在线视频学习
 
-查看前端的最新最热门的资源技术
+- [jquery类库](http://www.jq22.com/) 友好的jquery插件，酷炫的前端效果
 
-- [慕课网](http://www.imooc.com/)
+- [d3](https://d3js.org/) 一款最流行的高度个性化实用的可视化类库
 
-在线视频学习
+- [AntV](https://antv.alipay.com/) 阿里数据可视化
 
-- [jquery类库](http://www.jq22.com/)
+- [jsFiddle](https://jsfiddle.net/) 在线编辑web测试开发
 
-友好的jquery插件，酷炫的前端效果
-
-- [d3](https://d3js.org/)
-
-一款最流行的高度个性化实用的可视化类库
-
-- [AntV](https://antv.alipay.com/)
-
-阿里数据可视化
-
-- [jsFiddle](https://jsfiddle.net/)
-
-在线编辑web测试开发
-
-- [掘金](https://juejin.im/timeline)
-
-跟进新技术，作为茶余饭后的点心
-
-### 个人框架
-
-- [octJS](https://github.com/younglaker/octjs)
+- [掘金](https://juejin.im/timeline) 跟进新技术，作为茶余饭后的点心
 
 ## 写在最后
 
