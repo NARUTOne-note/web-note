@@ -21,6 +21,13 @@ git config --global user.email "your email"
 git config --local --list
 git config  user.name "your name"
 git config  user.email "your email"
+
+# 查看配置
+git config --list
+
+# 重置配置
+git config --global --unset user.name
+
 ```
 
 ## 查看
@@ -155,3 +162,5 @@ git fetch origin tag V1.2
 接下来你可以这样使用 git ac "提交信息"
 
 - `git remote set-url origin [url]` 更改远程源
+
+- `git config --global url."https://gitclone.com/github.com/".insteadOf https://github.com/` 解决git clone 下载域外包慢，下载完 重置当前配置，避免push提交失败
