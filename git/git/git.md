@@ -96,6 +96,9 @@ git branch -d  name
 #(远程)
 git branch -r -d origin/name
 git push origin :name
+
+# 删除远程分支
+git push origin --delete <branch_name>
 ```
 
 ## 分支合并
