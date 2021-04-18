@@ -5,7 +5,6 @@
 - [git操作](http://www.bootcss.com/p/git-guide/)
 - [git 常用命令](https://juejin.im/post/5dbe7a476fb9a0207f1035d0?utm_source=gold_browser_extension)
 
-
 ## 修改
 
 ```sh
@@ -22,6 +21,13 @@ git config --global user.email "your email"
 git config --local --list
 git config  user.name "your name"
 git config  user.email "your email"
+
+# 查看配置
+git config --list
+
+# 重置配置
+git config --global --unset user.name
+
 ```
 
 ## 查看
@@ -38,7 +44,7 @@ git config --global user.name "wuzhong"
 
 git config --global user.email "zhong.wu@baifendian.com"
 
-git clone url
+git clone [-b branch] url 
 
 cd  目标路径
 
@@ -90,6 +96,9 @@ git branch -d  name
 #(远程)
 git branch -r -d origin/name
 git push origin :name
+
+# 删除远程分支
+git push origin --delete <branch_name>
 ```
 
 ## 分支合并
@@ -104,6 +113,12 @@ git pull origin master
 git add *
 git commit -m "xxx"
 git push origin master
+
+# 将master分支强行重置为dev分支
+git reset --hard dev
+
+# 将重置后的master分支强制推送到远程仓库
+git push origin master -f
 ```
 
 ## 删除文件
@@ -143,7 +158,6 @@ git fetch origin tag V1.2
 
 > merge 保留git完整历史；rebase变改历史，但是减少一些日志节点，依赖更加清晰；只将主分支合并到自己的私有分支使用rebase，分享到其他分支使用merge；不要对在你的仓库外有副本的分支执行变基
 
-
 ## 技巧
 
 - `git config --global alias.ac '!git add -A && git commit -m '` 可以将 git add 和 git commit -m 这两条命令合二为一
@@ -151,3 +165,5 @@ git fetch origin tag V1.2
 接下来你可以这样使用 git ac "提交信息"
 
 - `git remote set-url origin [url]` 更改远程源
+
+- `git config --global url."https://gitclone.com/github.com/".insteadOf https://github.com/` 解决git clone 下载域外包慢，下载完 重置当前配置，避免push提交失败

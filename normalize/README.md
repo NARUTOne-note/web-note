@@ -31,3 +31,63 @@ eslint是一款专业对js语法和格式进行检测的工具，大部分的编
 
 flow是Facebook推出一款用于对JavaScript语法进行类型检测的开源工具（有TypeScript的意思）。该文件就是该工具的配置文件，具体可以前往
 [flow](https://flow.org/en/docs/config/)
+
+### 注释规范
+
+- TODO 在该注释处有功能代码待编写，待实现的功能在说明中会简略说明
+- FIXME 在该注释处代码需要修正，甚至代码是错误的，不能工作，需要修复，如何修正会在说明中简略说明
+- XXX 在该注释处代码虽然实现了功能，但是实现的方法有待商榷，希望将来能改进，要改进的地方会在说明中简略说明
+- NOTE 在该注释处说明代码如何工作
+- HACK 在该注释处编写得不好或格式错误，需要根据自己的需求去调整程序代码
+- BUG 在该注释处有 Bug
+
+```js
+// TODO功能未完成，待完善
+// FIXME  待修复
+// XXX    实现方法待确认
+// NOTE   代码功能说明
+// HACK   此处写法有待优化
+// BUG    此处有 Bug
+const arr = []
+
+```
+
+**文件注释**:
+
+```js
+  /*
+   * 简述当前文件功能
+   * @author 作者名称
+   * @version 版本号 最近编辑时间
+   * @description 该版本改动信息
+   */
+
+```
+
+**函数注释**:
+
+```js
+/**
+ * @func
+ * @desc 一个带参数的函数
+ * @param {string} a - 参数a
+ * @param {number} b=1 - 参数b默认值为1
+ * @param {string} c=1 - 参数c有两种支持的取值  1—表示x  2—表示xx
+ * @param {object} d - 参数d为一个对象
+ * @param {string} d.e - 参数d的e属性
+ * @param {object[]} g - 参数g为一个对象数组
+ * @param {string} g.h - 参数g数组中一项的h属性
+ * @param {string} [j] - 参数j是一个可选参数
+ */
+ function foo(a, b, c, d, g, j) {}
+
+/**
+ * @func
+ * @desc 一个带若干参数的函数
+ * @param {...string} a - 参数a
+ * @return {返回值类型} 返回值说明
+ */
+function bar(a) {}
+
+
+```
