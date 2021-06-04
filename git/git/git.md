@@ -167,3 +167,5 @@ git fetch origin tag V1.2
 - `git remote set-url origin [url]` 更改远程源
 
 - `git config --global url."https://gitclone.com/github.com/".insteadOf https://github.com/` 解决git clone 下载域外包慢，下载完 重置当前配置，避免push提交失败
+
+- `git clone https://github.com/microsoft/TypeScript --depth=1 ts` 加上 --depth 会只下载一个 commit，所以内容少了很多，速度也就上去了, 只是不能切换到历史 commit 和历史分支。
