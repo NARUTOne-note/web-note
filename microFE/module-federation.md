@@ -5,7 +5,7 @@
 ![去中心化的应用部署集群](./MF.png)
 
 - [webpack MF](https://webpack.docschina.org/concepts/module-federation/)
-- [webpack5  MF DEMO ](https://github.com/module-federation/module-federation-examples)
+- [webpack5  MF DEMO](https://github.com/module-federation/module-federation-examples)
 
 ## 限制
 
