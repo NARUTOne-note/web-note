@@ -213,11 +213,17 @@ VSCode的快捷键继承了一些IDE风格，有VS的身影，也有Emacs的身�
 
 ## 问题
 
-**rg.exe**占cpu过高
+- **rg.exe**占cpu过高
 [When using cnpm/pnpm, rg uses lots of CPU #35659](https://link.zhihu.com/?target=https%3A//github.com/Microsoft/vscode/issues/35659)
 
 ```bash
 cnpm install --by=npm
 
 "search.followSymlinks": false
+```
+
+- Mac下VS Code终端切换node版本不生效，但是单独在终端node版本是OK的
+
+```bash
+sudo rm -rf /usr/local/{lib/node{,/.npm,_modules},bin,share/man}/{npm*,node*,man1/node*}
 ```
