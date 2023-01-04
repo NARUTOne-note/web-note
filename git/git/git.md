@@ -111,6 +111,8 @@ git push origin --delete <branch_name>
 ```bash
 git checkout master
 git merge --no-ff develop
+# 合并commit 记录
+git merge --squash develop 
 
 # 取消合并，返回合并前
 git merge --abort
