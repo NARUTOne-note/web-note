@@ -2,7 +2,7 @@
 
 ## git操作
 
-[git操作](./github.md)
+[git操作](./git.md)
 
 ## 随记
 
