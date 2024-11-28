@@ -49,7 +49,11 @@ git config --global user.name "wuzhong"
 
 git config --global user.email "zhong.wu@baifendian.com"
 
+# clone all branch，to branch
 git clone [-b branch] url 
+
+# clone only branch
+git clone --single-branch -b xxx url
 
 cd  目标路径
 
