@@ -4,6 +4,8 @@
 
 [git操作](./git.md)
 
+![git-command](./git-command.png)
+
 ## 随记
 
 - [代码协议](http://www.cnblogs.com/Wayou/p/how_to_choose_a_license.html)
